@@ -1,0 +1,68 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.raywenderlich.podplay"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\arnbr\Desktop\Online Book\Android_Apprentice_v3.0.0\Android_Apprentice_v3.0.0\23-podcast-episodes\final\PodPlay\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\arnbr\Desktop\Online Book\Android_Apprentice_v3.0.0\Android_Apprentice_v3.0.0\23-podcast-episodes\final\PodPlay\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\arnbr\Desktop\Online Book\Android_Apprentice_v3.0.0\Android_Apprentice_v3.0.0\23-podcast-episodes\final\PodPlay\app\src\main\AndroidManifest.xml:5:3-64
+11-->C:\Users\arnbr\Desktop\Online Book\Android_Apprentice_v3.0.0\Android_Apprentice_v3.0.0\23-podcast-episodes\final\PodPlay\app\src\main\AndroidManifest.xml:5:20-62
+12
+13    <application
+13-->C:\Users\arnbr\Desktop\Online Book\Android_Apprentice_v3.0.0\Android_Apprentice_v3.0.0\23-podcast-episodes\final\PodPlay\app\src\main\AndroidManifest.xml:7:3-26:17
+14        android:allowBackup="true"
+14-->C:\Users\arnbr\Desktop\Online Book\Android_Apprentice_v3.0.0\Android_Apprentice_v3.0.0\23-podcast-episodes\final\PodPlay\app\src\main\AndroidManifest.xml:8:7-33
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.2.0] C:\Users\arnbr\.gradle\caches\transforms-2\files-2.1\f8a25a8e7a6c14f5ca703a491b755ba2\core-1.2.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\arnbr\Desktop\Online Book\Android_Apprentice_v3.0.0\Android_Apprentice_v3.0.0\23-podcast-episodes\final\PodPlay\app\src\main\AndroidManifest.xml:9:7-41
+18        android:label="@string/app_name"
+18-->C:\Users\arnbr\Desktop\Online Book\Android_Apprentice_v3.0.0\Android_Apprentice_v3.0.0\23-podcast-episodes\final\PodPlay\app\src\main\AndroidManifest.xml:10:7-39
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\arnbr\Desktop\Online Book\Android_Apprentice_v3.0.0\Android_Apprentice_v3.0.0\23-podcast-episodes\final\PodPlay\app\src\main\AndroidManifest.xml:11:7-52
+20        android:supportsRtl="true"
+20-->C:\Users\arnbr\Desktop\Online Book\Android_Apprentice_v3.0.0\Android_Apprentice_v3.0.0\23-podcast-episodes\final\PodPlay\app\src\main\AndroidManifest.xml:12:7-33
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme"
+22-->C:\Users\arnbr\Desktop\Online Book\Android_Apprentice_v3.0.0\Android_Apprentice_v3.0.0\23-podcast-episodes\final\PodPlay\app\src\main\AndroidManifest.xml:13:7-38
+23        android:usesCleartextTraffic="true" >
+23-->C:\Users\arnbr\Desktop\Online Book\Android_Apprentice_v3.0.0\Android_Apprentice_v3.0.0\23-podcast-episodes\final\PodPlay\app\src\main\AndroidManifest.xml:14:7-42
+24        <activity
+24-->C:\Users\arnbr\Desktop\Online Book\Android_Apprentice_v3.0.0\Android_Apprentice_v3.0.0\23-podcast-episodes\final\PodPlay\app\src\main\AndroidManifest.xml:15:5-25:16
+25            android:name="com.raywenderlich.podplay.ui.PodcastActivity"
+25-->C:\Users\arnbr\Desktop\Online Book\Android_Apprentice_v3.0.0\Android_Apprentice_v3.0.0\23-podcast-episodes\final\PodPlay\app\src\main\AndroidManifest.xml:15:15-49
+26            android:launchMode="singleTop"
+26-->C:\Users\arnbr\Desktop\Online Book\Android_Apprentice_v3.0.0\Android_Apprentice_v3.0.0\23-podcast-episodes\final\PodPlay\app\src\main\AndroidManifest.xml:16:9-39
+27            android:theme="@style/AppTheme.NoActionBar" >
+27-->C:\Users\arnbr\Desktop\Online Book\Android_Apprentice_v3.0.0\Android_Apprentice_v3.0.0\23-podcast-episodes\final\PodPlay\app\src\main\AndroidManifest.xml:17:9-52
+28            <intent-filter>
+28-->C:\Users\arnbr\Desktop\Online Book\Android_Apprentice_v3.0.0\Android_Apprentice_v3.0.0\23-podcast-episodes\final\PodPlay\app\src\main\AndroidManifest.xml:18:7-22:23
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Users\arnbr\Desktop\Online Book\Android_Apprentice_v3.0.0\Android_Apprentice_v3.0.0\23-podcast-episodes\final\PodPlay\app\src\main\AndroidManifest.xml:19:9-60
+29-->C:\Users\arnbr\Desktop\Online Book\Android_Apprentice_v3.0.0\Android_Apprentice_v3.0.0\23-podcast-episodes\final\PodPlay\app\src\main\AndroidManifest.xml:19:17-58
+30                <action android:name="android.intent.action.SEARCH" />
+30-->C:\Users\arnbr\Desktop\Online Book\Android_Apprentice_v3.0.0\Android_Apprentice_v3.0.0\23-podcast-episodes\final\PodPlay\app\src\main\AndroidManifest.xml:20:9-62
+30-->C:\Users\arnbr\Desktop\Online Book\Android_Apprentice_v3.0.0\Android_Apprentice_v3.0.0\23-podcast-episodes\final\PodPlay\app\src\main\AndroidManifest.xml:20:17-60
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\arnbr\Desktop\Online Book\Android_Apprentice_v3.0.0\Android_Apprentice_v3.0.0\23-podcast-episodes\final\PodPlay\app\src\main\AndroidManifest.xml:21:9-68
+32-->C:\Users\arnbr\Desktop\Online Book\Android_Apprentice_v3.0.0\Android_Apprentice_v3.0.0\23-podcast-episodes\final\PodPlay\app\src\main\AndroidManifest.xml:21:19-66
+33            </intent-filter>
+34
+35            <meta-data
+35-->C:\Users\arnbr\Desktop\Online Book\Android_Apprentice_v3.0.0\Android_Apprentice_v3.0.0\23-podcast-episodes\final\PodPlay\app\src\main\AndroidManifest.xml:23:7-24:45
+36                android:name="android.app.searchable"
+36-->C:\Users\arnbr\Desktop\Online Book\Android_Apprentice_v3.0.0\Android_Apprentice_v3.0.0\23-podcast-episodes\final\PodPlay\app\src\main\AndroidManifest.xml:23:18-55
+37                android:resource="@xml/searchable" />
+37-->C:\Users\arnbr\Desktop\Online Book\Android_Apprentice_v3.0.0\Android_Apprentice_v3.0.0\23-podcast-episodes\final\PodPlay\app\src\main\AndroidManifest.xml:24:9-43
+38        </activity>
+39    </application>
+40
+41</manifest>

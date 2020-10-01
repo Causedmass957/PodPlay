@@ -1,0 +1,7 @@
+#Wed Sep 30 17:30:45 EDT 2020
+base.0=C\:\\Users\\arnbr\\Desktop\\Online Book\\Android_Apprentice_v3.0.0\\Android_Apprentice_v3.0.0\\23-podcast-episodes\\final\\PodPlay\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=C\:\\Users\\arnbr\\Desktop\\Online Book\\Android_Apprentice_v3.0.0\\Android_Apprentice_v3.0.0\\23-podcast-episodes\\final\\PodPlay\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
